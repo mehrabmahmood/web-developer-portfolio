@@ -15,6 +15,12 @@
    .dark-2{
     color: #474747;
    }
+   .dark-1{
+    color: #181818;
+   }
+   .dark-3{
+    color: #757575;
+   }
 
    /* button */
    .btn-primary{
@@ -28,6 +34,13 @@
 
         
     
+   }
+
+   /* header */
+   .header{
+       background-image: url('../images/developer.png') , url('../images/header_bg.png');
+       background-repeat: no-repeat;
+       background-position: top left, bottom right;
    }
 
 /* Nav styles */
@@ -57,5 +70,123 @@ nav ul{
     display: flex;
     align-items: center;
 }
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 161px 0px 0px 91px;
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-greetings{
+    font-weight: 600;
+    font-size: 45px;
+}
 
+.banner-title{
+   font-size: 85px;
+   font-weight: bold;
+   color: #181818;
+}
 
+/* below Mary Hardy */
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+}
+/* Image  */
+.banner-profile-pic{
+    width: 584;
+    height: 674;
+}
+/* style of main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* section class */
+.about{
+    padding: 131px 156px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 130px;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.section-background-color{
+    background-color: #FFF8F3;
+}
+/* about */
+.about{
+     border-radius: 10px;
+     padding: 130px 150px;
+     text-align: center;
+     margin-top: 130;
+
+}
+.item-description{
+    font-weight: bold;
+    font-size: 20px;
+    color: #474747;
+}
+.item-title {
+    font-size: 20px;
+    color: #757575;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+/* 2nd section */
+
+.text-center{
+    text-align: center;
+}
+
+.selection2-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.selection2-description{
+    color: #757575;
+    font-size: 18px;
+    padding: 0px 115px;
+    text-align: center;
+}
+
+/* skill-items */
+.skill-items{
+    display: flex;
+    gap: 24px;
+    border-radius: 5px;
+    
+    
+}
+.skill-item{
+    padding: 10px 33px 30px 33px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title{
+    color: #181818;
+    font-size: 20;
+    font-weight: bold;
+    
+}
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+}
